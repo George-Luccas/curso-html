@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Subclasse</title>
+<style>
+    div#a{display: inline-block;
+         border: 5px solid black;
+         height: 200px;
+         width: 200px;
+        
+    }
+    div#b{display: inline-block;
+         border: 5px solid black;
+         height: 200px;
+         width: 200px;
+    }
+    div#c{display: inline-block;
+         border: 5px solid black;
+         height: 200px;
+         width: 200px;
+    }
+
+    div#a:hover{background-color: rgba(4, 254, 0, 0.514);}
+
+    div#b:hover{background-color: rgba(216, 254, 0, 0.514);}
+
+    div#c:hover{background-color: rgba(254, 30, 0, 0.651);}
+
+
+
+
+h1{
+    font-family: fantasy;
+    height:50px;
+}
+div > p {display: none;}
+
+div:hover > p { display:block;
+background-color: red;
+color: white;
+width: 200px;}
+
+    div:hover{color: red;}
+
+    
+</style>
+
+</head>
+<body>
+
+    <h1>Exemplo de Houver</h1>
+    <p>passe o mouse no texto abaixo</p>
+
+    <div>passe o mouse aqui bebe
+
+        <p>TEXTO ESCONDINDO</p>
+    </div>
+<br>
+<br>
+    <div id="a">01</div>
+    <div id="b">02</div>
+    <div id="c">03</div>
+    
+</body>
+</html>
