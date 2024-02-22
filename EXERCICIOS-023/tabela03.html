@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas mescladas</title>
+    <style>
+        table{ border-collapse: collapse;
+            width: 300px;
+        }
+
+        td { padding: 5px;
+            text-align: center;
+            border:1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas Mescladas</h1>
+
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="3">B</td>
+            
+        </tr>
+        <tr>
+            <td>E</td>
+            <td rowspan="3">F</td>
+            <td colspan="2">G</td>
+        </tr>
+        <tr>
+            <td>H</td>
+            <td>I</td>
+            <td rowspan="3">J</td>
+        </tr>
+        <tr>
+            
+            
+            <td>M</td>
+        </tr>
+
+        <tr>
+            
+           
+            <td colspan="3">P</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
