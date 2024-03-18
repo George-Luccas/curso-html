@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{ 
+            background-size: contain;
+            background-repeat:no-repeat;
+            background-image: url(imagens/download.jpg);
+        }
+form ,input {
+   color: white;
+}
+
+    </style>
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios date / Month</h1>
+    
+
+    <div>
+        <form action="cadastro.php" method="post">
+            <p>
+                <label for="usuario">Usurio</label>
+                <input type="text" name="usuario" id="iusuaio" required>
+            </p>
+        
+           <p>
+           <label for="senha">Senha</label>
+           <input type="password" name="senha" id="isenha" required>
+           </p>
+        
+           <p>
+        <label for="enviar">Enviar</label>
+        <input type="submit" value="Enviar" >
+        <label for="Limpar">Limpar</label>
+        <input type="reset" value="Limpar">
+           </p>
+           
+           <p>Insira as Informações complemetar para liberação do loguin</p>
+        
+           <p>
+        <label for="data">Data de Cadastro</label>
+        <input type="date" name="data" id="idata" required>
+        <p>
+            <label for="radio">Homem </label>
+            <input type="radio" name="radio" id="iradio" required>
+        
+            <label for="radio">Mulher </label>
+            <input type="radio" name="radio" id="iradio" required>
+            <input type="button" value="aperta aqui veado">
+            <input type="checkbox" name="check" id="icheck">
+            <input type="color" name="color" id="icolor">
+            <input type="datetime-local" name="data" id="idata">
+        </p>
+           </p>
+        </form>
+    </div>
+
+
+</body>
+</html>
