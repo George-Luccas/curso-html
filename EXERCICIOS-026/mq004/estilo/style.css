@@ -11,10 +11,10 @@
 
 
 
-body{
+body {
      width:80vw;
      background-position: center center;
-     background-size:cover;
+     background-size:contain;
      background:url(../imagens/back-phone.jpg) no-repeat ;  
 }
 
