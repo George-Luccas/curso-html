@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Output</title>
+</head>
+<body>
+    <h1>Vejamos como usar o Output</h1>
+
+    <form action="cad.php">
+        
+        <p>
+            <label for="inum">Quantidade</label>
+            <input type="range" name="num" id="inum" min="0" max="10" value="5"
+            oninput="ires.innerHTML = Number (inum.value)">
+            <output  id="ires">5</output>
+        </p>
+
+    </form>
+
+
+    
+</body>
+</html>
