@@ -1,2 +1,40 @@
 @charset "UTF-8";
+/*Typical devices breakpoits
+Mobile devices (pequena) – 320px — 480px.
+iPads, Tablets (media-pequena)– 481px — 768px.
+Small screens, laptops (media-media) – 769px — 1024px.
+Desktops, large screens (media - grande) – 1025px — 1200px.
+Extra large screens, TV  (grandes)– 1201px, and more.
 
+curso em video recomendação w3c - 
+pequenas telas - até 600 px
+celulares - 600 - 768 px
+tabletes -  768 - 992 px
+desktop -  992 - 1200px
+tv , telas maiores - acima de 1200px*/
+
+
+
+@media print {
+
+}
+
+@media screen and (max-width : 600px){
+    
+}
+
+@media screen and (min-width : 600px) and (max-widt :768px ){
+
+}
+
+@media screen and (min-width : 780px) and (max-widt :992px ){
+
+}
+
+@media screen and (min-width : 992px) and (max-widt : 1200px ){
+
+}
+
+@media screen and (min-width : 1250px) {
+
+}
